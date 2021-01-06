@@ -1,0 +1,15 @@
+After applying a gamma of 1.8 and using histogram equalization on micah.jpg the stats are:
+
+Channel 0 Max, Min, Ave, StdDev are 1, 0.0404707, 0.16955, 0.0650434
+Channel 1 Max, Min, Ave, StdDev are 1, 0.079492, 0.172014, 0.0644637
+Channel 2 Max, Min, Ave, StdDev are 1, 0.135271, 0.175587, 0.0639086
+
+After only loading micah.jpg and applying histogram equalization to it the stats are:
+
+Channel 0 Max, Min, Ave, StdDev are 1, 1.33333e-06, 0.168319, 0.0657949
+Channel 1 Max, Min, Ave, StdDev are 1, 7.0667e-05, 0.168232, 0.0655116
+Channel 2 Max, Min, Ave, StdDev are 1, 0.00214267, 0.168219, 0.0652134
+
+The two images don't differ too much after histogram equalization. Every channel always seems to have a max of 1,
+however the original micah.jpg without the gamma applied to it has smaller mins for every channel. Other than that
+the averages and standard deviations for both images are quite close and don't differ by too much at all.

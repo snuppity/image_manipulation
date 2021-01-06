@@ -1,0 +1,1 @@
+This project attempts to use Linear Wave Estimation to find the hidden message within the sinusoidals provided. Unfortunately mine did not quite work but I was unable to locate what the error was in my logic. 

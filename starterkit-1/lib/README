@@ -1,0 +1,9 @@
+This program is used for some basic image manipulations.
+
+To run: 
+
+make
+make paint
+./img_paint -image
+
+From there all commands appear in the terminal. Try it out!!
